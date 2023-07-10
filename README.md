@@ -4,7 +4,7 @@
 import RNFS from 'react-native-fs';
 import DocumentPicker from 'react-native-document-picker';
 
-;(aysnc function(){
+;(async function(){
   const docs = await DocumentPicker.pick({
     allowMultiSelection: true,
     type: DocumentPicker.types.allFiles,
